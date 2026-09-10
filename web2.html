@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: red;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            font-size: 30px;
+
+        }
+        .home{
+            background-color: red;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 100px;
+            font-size: 30px;
+        }
+        .main{
+            display: flex;
+            justify-content: space-evenly;
+            gap : 3px;
+        }
+        .left{
+            width: 50%;
+        }
+        .right{
+            width: 50%;
+        }
+        .le{
+            background-color: skyblue;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 150px;
+            font-size: 40px;
+            gap: 5px;
+        }
+        .ri{
+            background-color: palegreen;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 150px;
+            font-size: 40px;
+            gap: 5px;
+        }
+        .grid-container {
+            width: 100%
+            margin: 0;         
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 5px;
+       }
+       .blue {
+            background-color: blue;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 125px;
+        }
+        .red {
+            background-color: red;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 125px;
+        }
+        .green {
+            background-color: green;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 125px;
+        }
+        .yellow {
+            background-color: yellow;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 125px;
+        }
+        .box {
+            width 100%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); 
+            gap: 5px;
+            height: 125px;
+        }
+        .box1 {
+            background-color: rgb(145, 255, 0);
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2 {
+            background-color: rgb(0, 200, 255);
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box3 {
+            background-color: rgb(156, 81, 141);
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box4 {
+            background-color:blueviolet;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box5 {
+            background-color: purple;
+            color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer{
+            background-color: rgb(26, 255, 0);
+            color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            font-size: 30px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        Header
+    </div>
+    <div class="home">
+        <div class="ho">
+            Home
+        </div>
+        <div class="about">
+            About
+        </div>
+        <div class="login">
+            Login
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <div class="le">
+                Left
+            </div>
+        </div>
+        <div class="right">
+            <div class="ri">
+                Right
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="blue">Blue</div>
+        <div class="red">Red</div>
+        <div class="green">Green</div>
+        <div class="yellow">Yellow</div> 
+    </div>
+    <div class="box">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+        <div class="box5">Box 5</div>
+    </div>
+    <div class="footer">
+        Footer
+    </div>
+</body>
+</html>
